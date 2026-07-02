@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Inputs</title>
+</head>
+
+<body>
+    <h2>Java Application Form</h2>
+    <hr>
+
+    <br>
+
+    <form action="#">
+
+        <label for="fullname">Full Name: </label>
+        <input type="text" name="fullname" placeholder="Enter Full Name" id="fullname">
+
+        <br><br>
+
+        <label for="email">Email ID: </label>
+        <input type="email" name="email" placeholder="Enter Email" id="email">
+        
+        <br><br>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" placeholder="Enter Password" id="password">
+
+        <br><br>
+
+        <label for="phone">Phone: </label>
+        <input type="tel" name="phone" placeholder="Enter Phone Number" id="phone" maxlength="10" minlength="10">
+
+        <br><br>
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" placeholder="Enter Your Age" id="age" min="18" max="60">
+
+        <br><br>
+
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob">
+
+        <br><br>
+
+        <label for="image">Upload your Profile Picture: </label>
+        <input type="file" name="image" id="image" accept=".png,.jpeg" multiple>
+
+        <br><br>
+
+        <label>Gender: </label>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others"><label for="others">Others</label>
+
+        <br><br>
+
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option>Select</option>
+            <option value="IN">India</option>
+            <option value="US">United States</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree term and conditions</label>
+
+        <br><br>
+  
+
+        <button>Submit</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
