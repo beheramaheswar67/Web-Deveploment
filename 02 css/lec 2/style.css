@@ -1,0 +1,113 @@
+/* Universal Selector */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Element Selector or Tag Selector */
+
+h1 {
+    color: purple;
+    background-color: rgb(243, 211, 211);
+
+}
+
+ul {
+    color: orangered;
+}
+
+p {
+    color: royalblue;
+}
+
+
+/* Class Selector */
+
+.highlight {
+    background-color: lightgreen;
+
+}
+
+/* ID Selector */
+
+#intro{
+    background-color: yellow;
+}
+#unique-box{
+border: 2px, solid blue;
+}
+
+/* Group Selector */
+h1, #unique-box{
+    font-style: italic;
+}
+
+/* Descendant Selector */
+
+.nested p{
+    color: green;
+}
+
+.nested > div > div > p{
+    background-color: red;
+}
+/* Child Selector */
+
+.nested > p{
+color: maroon;
+background-color: pink ;
+}
+
+/* Adjacent Sibling Selector */
+
+h3+p{
+    color: blue;
+    background-color: greenyellow;
+}
+
+/* General Sibling Selector */
+
+h3 ~ p {
+    color: blueviolet;
+}
+
+/* Attribute Selector*/
+
+input[type="text"] {
+    border: 2px solid purple;
+}
+
+input[type="password"] {
+    border: 2px solid green;
+}
+
+/* Psudo Classes */
+
+.hover-button:hover{
+    color: purple;
+    background-color: palevioletred;
+}
+
+input:focus{
+    outline: none;
+}
+
+li:first-child{
+    color: aqua;
+    background-color: brown;
+}
+
+li:nth-child(2){
+    color: green;
+}
+
+/* Psudo Element */
+.pseudo::first-letter{
+    font-size: 22px;
+    color: red;
+}
+
+.pseudo::before{
+    content:'🙏';
+}
+ 
