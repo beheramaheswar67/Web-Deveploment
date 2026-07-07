@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 800;
+    background-color: crimson;
+}
+
+.first{
+    background-color: chartreuse;
+    width: 50%;
+    padding: 36px;
+    color: blueviolet;
+    /* padding-right: 10px; */
+    /* padding: 40px 45px 15px 20px; */
+    border: solid;
+    border-top:solid 10px;
+    border-right: solid aqua;
+    
+}
+
+.second{
+    
+    background-color: beige;
+    padding: 10px;
+    border: 10px solid black;
+    width: 400px;
+    height: 400px;
+    margin: 60px;
+
+    border-radius: 50% ;
+    padding-top: 150px;
+    outline: 30px solid rgb(245, 23, 205);
+}
