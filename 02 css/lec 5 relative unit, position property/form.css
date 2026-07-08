@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: paleturquoise;
+    background-image: url(./login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.f1 {
+    /* width: 320px; */
+    position: relative;
+    top: 150px;
+    /* left: 600px;  */
+    border-radius: 10px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label,
+p {
+    font-size: large;
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    width: 65%;
+    height: 25px;
+}
+
+button {
+    border-radius: 10px;
+    width: 25%;
+    height: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    filter: drop-shadow(0 0 1px currentcolor);
+    filter: drop-shadow(0 0 1rem var(--purple-300));
+    position: relative;
+    z-index: 1;
+}
+
+button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0.6;
+    box-shadow: 0 0 1em 0.5em var(--purple-300);
+}
+
+:root {
+    --transparent: oklch(0 0 0 / 0%);
+    --purple-100: oklch(0.86 0.08 280);
+    --purple-200: oklch(49.304% 0.23023 317.716);
+    --purple-300: oklch(42.143% 0.1369 276.768);
+    --purple-400: oklch(0.61 0.18 280);
+    --purple-500: oklch(0.5 0.21 280);
+    --purple-600: oklch(0.42 0.18 280);
+    --purple-800: oklch(0.25 0.15 280);
+    --purple-900: oklch(0.13 0.06 280);
+    --purple-900: oklch(0.13 0.06 280);
+}
+
+button:hover,
+button:focus {
+    color: var(--purple-200);
+    background-color: var(--purple-800);
+    transform: scale(1.1);
+}
