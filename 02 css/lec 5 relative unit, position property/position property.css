@@ -10,12 +10,23 @@ ul {
     right: 100px; */
     inset: 50px;
 
-    /* position: unset; */
+    position: unset;
 }
 
 .css {
     position: absolute;
-    background-color: aqua;
+    /* background-color: aqua; */
     top: 10px;
     left: 50px;
+    position: inherit;
+    position: unset;;
+}
+
+.js{
+    color: blueviolet;
+    position: fixed;
+    /* top: 10px;
+    left: 20px; */
+    
+
 }
