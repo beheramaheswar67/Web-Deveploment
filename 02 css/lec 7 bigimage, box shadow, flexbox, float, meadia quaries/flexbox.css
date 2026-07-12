@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    height: 60px;
+    width: 300px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.container {
+    height: 350px;
+    border: 2px solid black;
+    width: 80%;
+    margin: 10px auto;
+    background-color: lightblue;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end;
+    align-items: center; */
+
+    /* flex-direction: column; */
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+
+#violet{
+    align-self: center;
+}

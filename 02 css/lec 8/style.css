@@ -1,0 +1,89 @@
+.outer-container {
+   /* border: 2px solid black; */
+   margin: 0 auto;
+   border-radius: 1rem;
+   max-width: 80%;
+   background-color: rgb(203, 237, 237);
+   box-shadow: 3px 3px 15px black;
+   padding: 40px;
+
+}
+
+.inner-container {
+   /* border: 2px solid red; */
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: 1rem;
+
+}
+
+h2 {
+   text-align: center;
+   font-family: monospace;
+}
+
+.grid1 {
+   background-color: rgb(141, 77, 168);
+   grid-column: span 2;
+}
+
+.grid2 {
+   background-color: rgb(92, 83, 83);
+   /* grid-column: span 1; */
+}
+
+.grid3 {
+   background-color: whitesmoke;
+   /* grid-column: span 1; */
+   grid-row: span 2;
+}
+
+.grid4 {
+   background-color: beige;
+}
+
+.grid5 {
+   background-color: rgb(16, 15, 15);
+   grid-column: span 2;
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2.5rem;
+   color: white;
+   font-size: 1.5rem;
+   box-shadow: 2px 2px 15px black;
+}
+
+.grid3,
+.grid4 {
+   color: black;
+}
+
+.grid1:hover { 
+   background-color: rgb(136, 16, 187);
+   text-shadow: 2px 2px 10px rgb(247, 4, 4);
+}
+
+.grid2:hover {
+   background-color: rgb(68, 62, 62);
+   text-shadow: 2px 2px 10px rgb(1, 249, 220);
+}
+
+.grid3:hover {
+   background-color: rgb(226, 216, 216);
+   text-shadow: 2px 2px 10px rgb(26, 217, 4);
+}
+
+.grid4:hover {
+   background-color: rgb(226, 226, 226);
+   text-shadow: 2px 2px 10px rgb(4, 159, 215);
+}
+
+.grid5:hover {
+   background-color: rgb(0, 0, 0);
+   text-shadow: 2px 2px 10px rgb(251, 255, 0);
+}
